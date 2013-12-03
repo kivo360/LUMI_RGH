@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.map {
+  position: relative;
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+}
+
+.tile {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+}
+
+.tile path {
+  fill: none;
+  stroke: #000;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.tile .major_road { stroke: #8EA86C; }
+.tile .minor_road { stroke: #C3D6AA; }
+.tile .highway { stroke: #4D642D; stroke-width: 1.5px; }
+.tile .rail { stroke: #C3D6AA; }
+
+.info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
