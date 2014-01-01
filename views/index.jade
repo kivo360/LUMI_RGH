@@ -1,6 +1,15 @@
 extends layout
 block content
-	#map(style='height: 900px;')
-	
-	script(src='/javascripts/leaflet.js')
+	#map
+	//- div.overlay.sidebar(style="overflow-y: scroll;")
+		//- ul#skillList
+			
+	//- div#extra.overlay.infobox
+	//- 	p I will heal you. I will heal you. 
+	script(src='/javascripts/leaflet_demo.js')
+	script.
+		// d3.select("#skillList").selectAll("li")
+			// .data(["All", "Andrologist", "Allergist", "Andrologist", "Allergist", "Andrologist", "Allergist", "Andrologist", "Allergist", "Andrologist", "Allergist", "Andrologist", "Allergist", "Andrologist", "Allergist", "Andrologist", "Allergist", "Andrologist", "Allergist", "Andrologist", "Allergist"  ])
+			// .enter().append("li")
+			// 	.text(function (d) {return d;})
 		

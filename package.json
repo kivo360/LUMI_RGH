@@ -3,17 +3,22 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "3.3.4",
     "jade": "*",
     "mongoose": "*",
-    "passport-local" : "*",
-    "passport" : "*",
-    "jwt-simple" : "*",
+    "passport-local": "*",
+    "passport": "*",
+    "jwt-simple": "*",
     "passport-http-bearer": "*",
     "bcrypt": ">= 0.7.1",
-    "chance" : "*"
+    "chance": "*",
+    "async" : "*"
+  },
+  "subdomain": "golo",
+  "engines": {
+    "node": "0.10.x"
   }
 }
